@@ -1,0 +1,27 @@
+{
+    "RobloxClass": {
+        "prefix": ["class"],
+        "body": [
+            "",
+            "-- Class",
+            "local ${0:$TM_FILENAME_BASE} = {}",
+            "${0:$TM_FILENAME_BASE}.__index = ${0:$TM_FILENAME_BASE}",
+            "",
+            "-- Constructor",
+            "function ${0:$TM_FILENAME_BASE}.new()",
+            "\tlocal self = setmetatable({}, ${0:$TM_FILENAME_BASE})",
+            "\treturn self",
+            "end",
+            "",
+            "-- Class Methods",
+            "function ${0:$TM_FILENAME_BASE}:Destroy()",
+            "\t",
+            "end",
+            "",
+            "-- Return Class",
+            "return ${0:$TM_FILENAME_BASE}",
+            ""
+        ],
+        "description": "Starblade's template for Luau classes"
+    }
+}
