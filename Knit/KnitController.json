@@ -1,0 +1,32 @@
+{
+    "Knit Controller": {
+        "prefix": ["knitcontroller"],
+        "body": [
+            "",
+            "-- Services",
+            "local ReplicatedStorage = game:GetServices(\"ReplicatedStorage\")",
+            "",
+            "-- Modules",
+            "local Knit = require(ReplicatedStorage.Packages.Knit)",
+            "",
+            "-- Knit Controller",
+            "local ${0:$TM_FILENAME_BASE} = Knit.CreateController({",
+            "\tName = \"${0:$TM_FILENAME_BASE}\"",
+            "})",
+            "",
+            "-- Knit Lifetime Functions",
+            "function ${0:$TM_FILENAME_BASE}:KnitInit()",
+            "\t",
+            "end",
+            "",
+            "function ${0:$TM_FILENAME_BASE}:KnitStart()",
+            "\t",
+            "end",
+            "",
+            "-- Return Controller",
+            "return ${0:$TM_FILENAME_BASE}",
+            ""
+        ],
+        "description": "Default template for a Knit Controller according to our style guidelines."
+    }
+}
