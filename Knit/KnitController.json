@@ -27,6 +27,6 @@
             "return ${0:$TM_FILENAME_BASE}",
             ""
         ],
-        "description": "Default template for a Knit Controller according to our style guidelines."
+        "description": "Starblade's template for a Knit Controller"
     }
 }
