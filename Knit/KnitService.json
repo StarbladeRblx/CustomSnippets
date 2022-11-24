@@ -1,0 +1,33 @@
+{
+    "Knit Service": {
+        "prefix": ["knitservice"],
+        "body": [
+            "",
+            "-- Services",
+            "local ReplicatedStorage = game:GetServices(\"ReplicatedStorage\")",
+            "",
+            "-- Modules",
+            "local Knit = require(ReplicatedStorage.Packages.Knit)",
+            "",
+            "-- Knit Service",
+            "local ${0:$TM_FILENAME_BASE} = Knit.CreateService({",
+            "\tName = \"${0:$TM_FILENAME_BASE}\",",
+            "\tClient = {},",
+            "})",
+            "",
+            "-- Knit Lifetime Functions",
+            "function ${0:$TM_FILENAME_BASE}:KnitInit()",
+            "\t",
+            "end",
+            "",
+            "function ${0:$TM_FILENAME_BASE}:KnitStart()",
+            "\t",
+            "end",
+            "",
+            "-- Return Service",
+            "return ${0:$TM_FILENAME_BASE}",
+            ""
+        ],
+        "description": "Default template for a Knit Service according to our style guidelines."
+    }
+}
